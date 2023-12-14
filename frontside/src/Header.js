@@ -3,10 +3,6 @@ import {useContext, useEffect, useState} from "react";
 import {UserContext} from "./UserContext";
 import styled from "styled-components";
 
-const  HeaderStyle = styled.div`
-
-
-`
 export default function Header() {
   const {setUserInfo,userInfo} = useContext(UserContext);
   useEffect(() => {
